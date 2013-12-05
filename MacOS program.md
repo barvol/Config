@@ -2,11 +2,10 @@ Install program
 ===============
 
 1. NvAlt
-2. NvAlt - extension for Safari
-3. Dropbox
-4. TextExpander
-5. Iterm2
-6. Subline3
+2. Dropbox
+3. TextExpander
+4. iTerm2
+5. Sublime Text 3
 
 Key
 ===============
