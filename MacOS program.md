@@ -11,5 +11,5 @@ Install program
 Key
 ===============
 
-1. Copy RSA to folder and change permission
+1. Copy RSA to folder and modify permission
 2. 
