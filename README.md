@@ -1,2 +1,2 @@
-Config for programs [Config / MacOS program.md]
+[Config for programs] (Config/MacOS program.md)
 ==================
