@@ -30,4 +30,4 @@ and install ssh-add: `brew install ssh-copy-id`
 
 Display
 ===============
-Copy profile "CustomMBA.icc" to `/Library/ColorSync/Profiles/Displays/`
+Copy profile **"CustomMBA.icc"** to `/Library/ColorSync/Profiles/Displays/`
