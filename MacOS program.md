@@ -26,7 +26,8 @@ Key
 
 ###Install HomeBrew:
 `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
-
+####and install ssh-add:
+`brew install ssh-copy-id`
 Display
 ===============
 Copy profile "CustomMBA.icc" to `/Library/ColorSync/Profiles/Displays/`
