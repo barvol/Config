@@ -12,7 +12,7 @@ Install program
 Key
 ===============
 
-1. Copy RSA to folder and modify permission:
+###Copy RSA to folder and modify permission:
 
 `chmod 700 ~/.ssh`
 
@@ -23,6 +23,9 @@ Key
 `chmod 644 ~/.ssh/authorized_keys`
 
 `chmod 644 ~/.ssh/known_hosts`
+
+###Install HomeBrew:
+`ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
 
 Display
 ===============
