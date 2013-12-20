@@ -1,7 +1,7 @@
 Key
 ===============
 
-###Copy RSA to folder and modify permission:
+####Copy RSA to folder and modify permission:
 
 ```
 chmod 700 ~/.ssh
@@ -11,7 +11,7 @@ chmod 644 ~/.ssh/authorized_keys
 chmod 644 ~/.ssh/known_hosts
 ```
 
-###Install HomeBrew:
+####Install HomeBrew:
 `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
 and install ssh-add: `brew install ssh-copy-id`
 
@@ -22,8 +22,8 @@ Copy profile **"CustomMBA.icc"** to `/Library/ColorSync/Profiles/Displays/`
 Image optim
 ===============
 
-###imgo
-Устанавливаем homebrew и ыполняем следующие команды в терминале:
+####imgo
+Устанавливаем homebrew и выполняем следующие команды в терминале:
 ```
 brew install exiftool imagemagick optipng libjpeg gifsicle
 
@@ -33,6 +33,9 @@ do
 brew install "https://raw.github.com/imgo/imgo-tools/master/Formula/"$package
 done
 ```
+
+####svgo
+```[sudo] npm install -g svgo```
 
 Install program
 ===============
