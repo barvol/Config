@@ -15,9 +15,6 @@ chmod 644 ~/.ssh/known_hosts
 `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
 and install ssh-add: `brew install ssh-copy-id`
 
-Display
-===============
-Copy profile **"CustomMBA.icc"** to `/Library/ColorSync/Profiles/Displays/`
 
 Image optim
 ===============
@@ -34,7 +31,8 @@ brew install "https://raw.github.com/imgo/imgo-tools/master/Formula/"$package
 done
 ```
 
-####svgo
+####svgo 
+Для установки требует наличия npm от Node.js (при установки с сайта npm идет в комплекте, при установки из homebrew нужно устанавливать отдельно)
 ```[sudo] npm install -g svgo```
 
 Install program
@@ -47,3 +45,7 @@ Install program
 5. Sublime Text 3
 6. PopClip
 7. BetterTouchTool
+
+Display
+===============
+Copy profile **"CustomMBA.icc"** to `/Library/ColorSync/Profiles/Displays/`
