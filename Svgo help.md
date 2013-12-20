@@ -14,7 +14,7 @@
   --datauri=DATAURI : Output as Data URI string (base64, URI encoded or unencoded)
   --pretty : Make SVG pretty printed
 
-Arguments:
+#### Arguments:
   INPUT : Alias to --input
   OUTPUT : Alias to --output
 with files:
