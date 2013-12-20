@@ -2,6 +2,7 @@
 `svgo [OPTIONS] [ARGS]`
 
 #### Options:
+```
   -h, --help : Help
   -v, --version : Version
   -i INPUT, --input=INPUT : Input file, "-" for STDIN
@@ -14,32 +15,31 @@
   --datauri=DATAURI : Output as Data URI string (base64, URI encoded or unencoded)
   --pretty : Make SVG pretty printed
 
-#### Arguments:
+Arguments:
   INPUT : Alias to --input
   OUTPUT : Alias to --output
+```
 with files:
 
-$ svgo test.svg
-or:
+`$ svgo test.svg`
+- or:
 
-$ svgo test.svg test.min.svg
-with STDIN / STDOUT:
+`$ svgo test.svg test.min.svg`
+- with STDIN / STDOUT:
 
-$ cat test.svg | svgo -i - -o - > test.min.svg
-with folder
+`$ cat test.svg | svgo -i - -o - > test.min.svg`
+- with folder
 
-$ svgo -f ../path/to/folder/with/svg/files
-with strings:
+`$ svgo -f ../path/to/folder/with/svg/files`
+- with strings:
 
-$ svgo -s '<svg version="1.1">test</svg>' -o test.min.svg
-or even with Data URI base64:
+`$ svgo -s '<svg version="1.1">test</svg>' -o test.min.svg`
+- or even with Data URI base64:
 
-$ svgo -s 'data:image/svg+xml;base64,…' -o test.min.svg
-with SVGZ:
+`$ svgo -s 'data:image/svg+xml;base64,…' -o test.min.svg`
+- with SVGZ: `from .svgz` to `.svg`:
 
-from .svgz to .svg:
+`$ gunzip -c test.svgz | svgo -i - -o test.min.svg`
+- from .svg to .svgz:
 
-$ gunzip -c test.svgz | svgo -i - -o test.min.svg
-from .svg to .svgz:
-
-$ svgo test.svg -o - | gzip -cfq9 > test.svgz
+`$ svgo test.svg -o - | gzip -cfq9 > test.svgz`
